@@ -9,5 +9,5 @@ Follow the prompts in the console window to interact with the Recipe App. The ap
 **Exit the Application**: To exit the application, choose the "Exit" option from the menu, or simply close the console window.
 
 
-Link to my reprosatory:
+Link to my repository:
 https://github.com/Thamsanqa123/Recipe-App
