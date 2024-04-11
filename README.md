@@ -1,4 +1,4 @@
-# Part-1
+# Recipe App
 Zip File: Download and  Exract the zip file and click on the Recipe app file
 Open Visual Studio: Launch Visual Studio on your computer.
 click file o the top left corner of your VS and then you will click "Open" and then "Open folder".
