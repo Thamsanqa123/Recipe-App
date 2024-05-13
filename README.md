@@ -12,4 +12,10 @@ Follow the prompts in the console window to interact with the Recipe App. The ap
 Link to my repository:
 https://github.com/Thamsanqa123/Recipe-App
 
-#Changes Based on Lecturer's Feedback:
+Changes Based on Lecturer's Feedback:
+I replaced arrays with generic collections (lists) to store recipes, ingredients, and steps. This change enhances flexibility and ease of use, allowing for dynamic management of recipe data.
+Ensured the the list of recipes is displayed in alphabetical order, this was implemented in the "showRecipe" method.
+I added a method in my Recipe class which will display total calories, plus a warning is provided if the total calories exceed 300.
+the ResetQuantities() method now iterates through each ingredient in the recipe. It then searches for the original quantity of each ingredient from a hypothetical backup list of ingredients (originalIngredients).
+updated code includes error handling for user input.
+A unit test was implemented to verify the accuracy of the total calorie calculation. 
