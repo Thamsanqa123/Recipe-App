@@ -12,7 +12,7 @@ Follow the prompts on the window to interact with the Recipe App. The app will g
 Link to my repository:
 https://github.com/Thamsanqa123/Recipe-App
 
-#Changes Based on Lecturer's Feedback:
+# Changes Based on Lecturer's Feedback:
 I replaced arrays with generic collections (lists) to store recipes, ingredients, and steps. This change enhances flexibility and ease of use, allowing for dynamic management of recipe data.
 Ensured the the list of recipes is displayed in alphabetical order, this was implemented in the "showRecipe" method.
 I added a method in my Recipe class which will display total calories, plus a warning is provided if the total calories exceed 300.
