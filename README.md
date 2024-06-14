@@ -13,9 +13,7 @@ Link to my repository:
 https://github.com/Thamsanqa123/Recipe-App
 
 # Changes Based on Lecturer's Feedback:
-I replaced arrays with generic collections (lists) to store recipes, ingredients, and steps. This change enhances flexibility and ease of use, allowing for dynamic management of recipe data.
-Ensured the the list of recipes is displayed in alphabetical order, this was implemented in the "showRecipe" method.
-I added a method in my Recipe class which will display total calories, plus a warning is provided if the total calories exceed 300.
-the ResetQuantities() method now iterates through each ingredient in the recipe. It then searches for the original quantity of each ingredient from a hypothetical backup list of ingredients (originalIngredients).
-updated code includes error handling for user input.
-A unit test was implemented to verify the accuracy of the total calorie calculation. 
+Improved UI Layout: Adjusted the layout of the MainWindow.xaml to ensure a more user-friendly interface. Added grid definitions for better organization of elements and improved button placement for intuitive navigation.
+I enhanced the IngredientWindow.xaml and StepWindow.xaml to include proper data validation and user feedback messages, ensuring that all necessary fields are filled correctly.
+Even added robust error handling in the MainWindow.xaml.cs to manage invalid inputs and provide informative messages to the user, thereby improving the overall user experience.
+Improved the filtering functionalities for ingredients, food groups, and calories, ensuring that the filters work correctly and display relevant results in the ListBox.
